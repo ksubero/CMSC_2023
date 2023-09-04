@@ -18,9 +18,10 @@ int main()
 	cout << "Hello CMSC140 CRN 21909 class!" << endl;
 	cout << "My name is Keiffer Subero" << endl;
 	cout << "My major is Computer Science 107" << endl;
-	cout << "Programming is intimidating at first glance" << endl;
-	cout << "Today is September 5th."
+	cout << "Programming is intimidating at first glance." << endl;
+	cout << "Today is September 5th." << endl;
 	cout << "********************" << endl;
+
 	system("pause");
 	return 0;
 }
