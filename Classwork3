@@ -1,45 +1,42 @@
 /*
 *Class: CMSC140 21909
 *Instructor: Grigoriy Grinberg
-*Classwork2
-*Description: Developing a program to display information
-*Due Date: 09/11/2023
+*Classwork3
+*Description: Calculating Grades Based on Scores from Assignments Completed
+*Due Date: 09/18/2023
 *I pledge that I have completed the programming assignment independently.
 * I have no copied the code from a student or any source.
 * Print your Name here: Keiffer Subero
 */
 
 #include <iostream>
+#include <string>
 #include <cmath>
+#include <iomanip>
+
 using namespace std;
 
 int main()
 {
-	int userName;
-	int syllabusQuiz;
-	int chapterQuiz1;
-	int chapterQuiz2;
-	int programmingClasswork1;
-	int programmingClasswork2;
-	double sumGrade = syllabusQuiz + chapterQuiz1 + chapterQuiz2 + programmingClasswork1 + programmingClasswork2;
-	double averageGrade = sumGrade / 5;
-	
-	cout << "What is your first and last name? (separated by a space)" << endl;
-	cin >> userName;
-	cout << "What score did your receive for the Syllabus Quiz? (Acceptable range: 0-100)" << endl;	
-    cin >> syllabusQuiz;
-    cout << "What score did your receive for the Chapter 1 Quiz? (Acceptable range: 0-100)" << endl;	
-    cin >> chapterQuiz1;
-    cout << "What score did your receive for the Chapter 2 Quiz? (Acceptable range: 0-100)" << endl;	
-    cin >> chapterQuiz2;
-    cout << "What score did your receive for the Programming Classwork1? (Acceptable range: 0-100)" << endl;	
-    cin >> programmingClasswork1;
-    cout << "What score did your receive for the Programming Classwork2? (Acceptable range: 0-100)" << endl;	
-    cin >> programmingClasswork2;
-    
-    cout >> "userName" endl;
-    cout >> "sumGrade" endl;
-    cout >> "averageGrade" endl;
-    
+	string userName;
+	double syllabusQuiz;
+	double chapterQuiz1;
+	double chapterQuiz2;
+	double programmingClasswork1;
+	double programmingClasswork2;
+
+
+	cout << "Enter Student's first and last name (separated by a space): "; getline(cin, userName);
+	cout << "Enter score received for the Syllabus Quiz (Acceptable range: 0-100): "; cin >> syllabusQuiz;
+	cout << "Enter score received for the Chapter 1 Quiz (Acceptable range: 0-100): "; cin >> chapterQuiz1;
+	cout << "Enter score received for the Chapter 2 Quiz (Acceptable range: 0-100): "; cin >> chapterQuiz2;
+	cout << "Enter score received for the Programming Classwork1 (Acceptable range: 0-100): "; cin >> programmingClasswork1;
+	cout << "Enter score received for the Programming Classwork2 (Acceptable range: 0-100): "; cin >> programmingClasswork2;
+
+	float sumGrade = syllabusQuiz + chapterQuiz1 + chapterQuiz2 + programmingClasswork1 + programmingClasswork2;
+	float averageGrade = sumGrade / 5;
+
+	cout << userName << ":  " << "Final Score:  " << sumGrade << "   " << "Average Score:    " << setprecision(3) << averageGrade << endl;
+
 	return 0;
 }
