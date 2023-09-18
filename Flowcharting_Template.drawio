@@ -1,22 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T15:34:36.398Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="6EZ3SnpzBtpQoxsPxBs_" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-18T00:59:33.292Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" etag="N5FNZCo_AwfUgNPHBWcN" version="21.7.2" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="1272" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="464" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2" value="start" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="60" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="analyse project&#xa; documentation" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+        <mxCell id="3" value="Display 20 * &quot;Robot&lt;br&gt;Prototype Scripting&lt;br&gt;20 *" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="240.5" y="130" width="159" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="create&#xa;material&#xa;specification" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240.5" y="510" width="159" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="mlYHUzIxApP0NgxCb431-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5" target="4">
+        <mxCell id="gC4LzFrdIr4aGH0hgucV-44" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="4" target="gC4LzFrdIr4aGH0hgucV-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="check for&#xa;obscurities" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+        <mxCell id="4" value="store userName" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240.5" y="370" width="159" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mlYHUzIxApP0NgxCb431-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="5" target="4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Display &quot;Hello, welcome&lt;br&gt;to Montgomery College!&lt;br&gt;My name is&quot; robotName&amp;nbsp;&lt;br&gt;&quot;. May I have your name?&quot;" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="240.5" y="250" width="159" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" source="2" target="3" edge="1">
@@ -25,35 +28,50 @@
         <mxCell id="8" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" source="3" target="5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mlYHUzIxApP0NgxCb431-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="13" target="34">
+        <mxCell id="gC4LzFrdIr4aGH0hgucV-46" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="gC4LzFrdIr4aGH0hgucV-43" target="gC4LzFrdIr4aGH0hgucV-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="13" value="order material" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240.5" y="640" width="159" height="80" as="geometry" />
+        <mxCell id="gC4LzFrdIr4aGH0hgucV-43" value="Display &quot;Nice to have&lt;br&gt;you with us today, &quot;&lt;br&gt;userName &quot;!&quot;" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="240.5" y="570" width="159" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="17" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" source="4" target="13" edge="1">
-          <mxGeometry width="100" height="100" as="geometry">
-            <mxPoint y="100" as="sourcePoint" />
-            <mxPoint x="100" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mlYHUzIxApP0NgxCb431-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="34" target="38">
+        <mxCell id="gC4LzFrdIr4aGH0hgucV-48" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="gC4LzFrdIr4aGH0hgucV-45" target="gC4LzFrdIr4aGH0hgucV-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="34" value="create&#xa;status&#xa;report" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240.5" y="1020" width="159" height="80" as="geometry" />
+        <mxCell id="gC4LzFrdIr4aGH0hgucV-45" value="Display &quot;Let me&amp;nbsp;&lt;br&gt;impress you&lt;br&gt;with a small&lt;br&gt;game.&quot;" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="240.5" y="770" width="159" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="38" value="create&#xa;final&#xa;report" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240.5" y="1260" width="159" height="80" as="geometry" />
+        <mxCell id="gC4LzFrdIr4aGH0hgucV-50" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="gC4LzFrdIr4aGH0hgucV-47" target="gC4LzFrdIr4aGH0hgucV-49">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="40" value="end" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="260" y="1440" width="120" height="30" as="geometry" />
+        <mxCell id="gC4LzFrdIr4aGH0hgucV-47" value="&quot;Give me the age&lt;br&gt;of an important&lt;br&gt;person or a pet&lt;br&gt;to you.&quot;" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="240.5" y="970" width="159" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="43" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" source="38" target="40" edge="1">
-          <mxGeometry width="100" height="100" as="geometry">
-            <mxPoint y="-370" as="sourcePoint" />
-            <mxPoint x="100" y="-470" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="gC4LzFrdIr4aGH0hgucV-52" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="gC4LzFrdIr4aGH0hgucV-49" target="gC4LzFrdIr4aGH0hgucV-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gC4LzFrdIr4aGH0hgucV-49" value="&quot;Please give me&lt;br&gt;only a number:&quot;" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="240.5" y="1170" width="159" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gC4LzFrdIr4aGH0hgucV-54" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="gC4LzFrdIr4aGH0hgucV-51" target="gC4LzFrdIr4aGH0hgucV-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gC4LzFrdIr4aGH0hgucV-51" value="store importantAge" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="240.5" y="1370" width="159" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gC4LzFrdIr4aGH0hgucV-57" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="gC4LzFrdIr4aGH0hgucV-53" target="gC4LzFrdIr4aGH0hgucV-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gC4LzFrdIr4aGH0hgucV-53" value="Display &quot;You have&amp;nbsp;&lt;br&gt;entered &quot;&lt;br&gt;importantAge&lt;br&gt;&quot;.&quot;" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="240.5" y="1570" width="159" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gC4LzFrdIr4aGH0hgucV-59" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="gC4LzFrdIr4aGH0hgucV-56" target="gC4LzFrdIr4aGH0hgucV-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gC4LzFrdIr4aGH0hgucV-56" value="Display &quot;If this is for&lt;br&gt;a person, the age&lt;br&gt;can be expressed&lt;br&gt;as:&quot;" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="240.5" y="1770" width="159" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gC4LzFrdIr4aGH0hgucV-58" value="Display importantAge" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="240.5" y="1970" width="159" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
