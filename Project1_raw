@@ -1,0 +1,61 @@
+/*
+*Class: CMSC140 21909
+*Instructor: Grigoriy Grinberg
+*Project1
+*Description: Simulating a robot scripting program
+*Due Date: 09/25/23
+*I pledge that I have completed the programming assignment independently.
+* I have no copied the code from a student or any source.
+* Print your Name here: Keiffer Subero
+*/
+
+#include <iostream>
+#include <string>
+#include <cmath>
+#include <iomanip>
+
+using namespace std;
+
+int main()
+{
+	string robotName = "Nao", programmerName = "Keiffer Subero", dueDate = "09/25/23";
+	string userName;
+	const long double daysOfmonth = 30 , goldfishYear = 5, dogAge = 7, assignmentNumber = 1;
+	long double importantNumber1, importantNumber2, importantAge;
+	
+	cout << "******************** Robot Prototype Scripting ********************" << endl;
+	cout << "\n";
+	cout << "Hello, welcome to Montgomery College! My name is " << robotName <<". May I have your name?\n";
+	getline(cin, userName);
+	cout << "Nice to have you with us today, " << userName << "!\n";
+	cout << "Let me impress you with a small game.\n";
+	cout << "Give me the age of an important person or a pet to you.\n";
+	cout << "Please give me only a number:\n";
+	cin >> importantAge;
+	cout << "\n";
+	cout << "You have entered " << importantAge << ".\n";
+	cout << "If this is for a person, the age can be expressed as:\n";
+	cout << importantAge << " years\n";
+	cout << "or about " << (importantAge * 12) << " months\n";
+	cout << "or about " << (importantAge * 12) * daysOfmonth << " days\n";
+	cout << "or about " << ((importantAge * 12) * daysOfmonth) * 24 << " hours\n";
+	cout << "or about " << setprecision(9) << (((importantAge * 12) * daysOfmonth) * 24) * 60 << " minutes\n";
+	cout << "or about " << setprecision(9) << ((((importantAge * 12) * daysOfmonth) * 24) * 60) * 60 << " seconds.\n";
+	cout << "If this is for a dog, it is " << importantAge * dogAge << " years old in human age.\n";
+	cout << "If this is for a gold fish, it is " << importantAge * goldfishYear << " years old in human age.\n";
+	cout << "\n";
+	cout << "Let's play another game, " << userName << ". Give me a whole number.\n";
+	cin >> importantNumber1;
+	cout << "Very well. Give me another whole number.\n";
+	cin >> importantNumber2;
+	cout << "Using the operator '+' in C++, the result of " << importantNumber1 << " + " << importantNumber2 << " is " << importantNumber1 + importantNumber2 << ".\n";
+	cout << "Using the operator '/', the result of " << importantNumber1 << " / " << importantNumber2 << " is " << floor(importantNumber1 / importantNumber2) << "\n";
+	cout << "however, the result of " << setprecision(1) << fixed << importantNumber1 << " / " << setprecision(1) << fixed << importantNumber2 << " is about "  << importantNumber1 / importantNumber2 << ".\n"; 
+	cout << "\n";
+	cout << "Thank you for testing my program!!\n";
+	cout << "PROGRAMMER: " << programmerName << "\n";
+	cout << "CMSC140 Common Project " << setprecision(0) << fixed << assignmentNumber << "\n";
+	cout << "Due Date: " << dueDate;
+	
+	return 0;
+}
