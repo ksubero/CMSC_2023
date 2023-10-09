@@ -31,7 +31,7 @@ public:
         cout << "Temperature in Fahrenheit: " << fixed << setprecision(0) << degreesFahrenheit << "\n" << endl;
     }
     else {
-        cout << "Temperature must be greater than zero.  Run program again using valid input." << endl;
+        cout << "Temperature must be greater than zero.  Run program again using valid input.\n" << endl;
     }
     }
 };
@@ -45,11 +45,11 @@ public:
     cout << "Please enter distance in Kilometers (such as 15.25): " << endl;
     cin >> distanceKilometer;
     if (distanceKilometer > 0) {
-        distanceMile = (distanceKilometer * 6.0);
+        distanceMile = (distanceKilometer * 0.6);
         cout << "Distance in Miles: " << fixed << setprecision(2) << distanceMile << "\n" << endl;
     }
     else {
-        cout << "Distance must be a positive number, run program again using valid input." << endl;
+        cout << "Distance must be a positive number, run program again using valid input.\n" << endl;
     }
     }
 };
@@ -63,11 +63,11 @@ public:
     cout << "Please enter weight in Kilograms (such as 20.1): " << endl;
     cin >> weightKilogram;
     if (weightKilogram > 0) {
-        weightPound = (weightKilogram * 3.2);
+        weightPound = (weightKilogram * 2.2);
         cout << "Weight in Pounds: " << fixed << setprecision(1) << weightPound << "\n" << endl;
     }
     else {
-        cout << "Weight must be a positive number, run program again using valid input." << endl;
+        cout << "Weight must be a positive number, run program again using valid input.\n" << endl;
     }
     }
 };
@@ -99,10 +99,10 @@ int main()
             weightConverter.convert();
             break;
         case 4:
-            cout << "Program has been successfully quit." << endl;
+            cout << "Program has been successfully quit.\n" << endl;
             break;
         default:
-            cout << "Invalid entry, please choose between 1-4." << endl;
+            cout << "Invalid entry, please choose between 1-4.\n" << endl;
     }
     cout << countryName << " sounds fun!\n\n\n";
     cout << "Thank you for testing my program!!\n";
